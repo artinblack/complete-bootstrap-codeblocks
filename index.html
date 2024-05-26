@@ -1,0 +1,1859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap 5 example</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width , initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet" > 
+    <script 
+    src="js/bootstrap.js"> 
+    </script>
+</head>
+<body>
+
+<div class="container" > 
+    <h1> my first bootstrap page</h1>
+    <p> this part is inside a .container class</p>
+    <p>the .container class provides a responsive fixed width container</p>
+    </div>
+<!-- first bf5 web page 
+ 
+1 add the html5 doctype 
+2 bootstrap5 is mobile-first 
+3 containers :- contains two containers class to choose from 
+	.container 
+	.container-fluid -->
+
+<div class="container-fluid" > 
+    <h1> my first bootstrap page</h1>
+    <p> this part is inside a .container-fluid class</p>
+    <p> the .container-fluid class provides a responsive fixed width container</p>
+</div>
+
+<div class="container pt-5">
+    <h1> this is container padding </h1>
+    <p> this part inside the .container pt-5 will make a padding at the top and bottom of the pages</p>
+</div>
+
+<div class="container p-5 my-5 border">
+    <h1> my first bootstrap page</h1>
+    <p> this container has a border and some extra padding and margins</p>
+</div>
+
+<div class="container p-5 my-5 bg-dark text-white"> 
+    <h1> my first bootstrap page</h1>
+    <p> this container has a black background color and a white text , and some extra padding and margins</p>
+</div>
+
+<div class="container p-5 my-5 bg-primary text-white"> 
+    <h1> my first bootstrap page</h1>
+    <p> this container has a blue background color and a white text , and some extra paddding and margins</p>
+</div>
+
+<div class="container-sm">.container-sm</div>
+<div class="container-md">.container-md</div>
+<div class="container-lg">.container-lg</div>
+<div class="container-xl">.container-xl</div>
+<div class="container-xxl">.container-xxl</div>
+
+<!-- grid classes 
+the bootsrap 5 grid system has six classes 
+.col- - extra small devices 
+.col-sm-  - small devices 
+.col-md-  - medium devices 
+.col-lg-  - large devices 
+.col-xl-  - xlarge devices 
+.col-xxl- - xxlarge devices -->
+
+<!-- p-3 -  padding 3 
+bg - background colour
+text - text color  -->
+
+<div class="row"> 
+    <div class="col p-3 bg-primary text-white">.col</div>
+    <div class="col p-3 bg-black text-white">.col</div>
+    <div class="col p-3 bg-primary text-white">.col</div>
+</div>
+
+<!-- responsive columns
+resize the browser window to see the effect 
+the columns will automatically stack on top of each other when the screen is less than 576px wide -->
+<br>
+<br>
+<br>
+
+<div class="row"> 
+    <div class="col-sm-3 p-3 bg-primary text-white">.col-sm-3</div>
+    <div class="col-sm-3 p-3 bg-dark text-white">.col-sm-3</div>
+    <div class="col-sm-3 p-3 bg-primary text-white">.col-sm-3</div>
+    <div class="col-sm-3 p-3 bg-dark text-white">.col-sm-3</div>
+</div>
+
+<!-- two unequal responsive columns 
+the following example shows how to get two various width columns starting at tablets and scaling to large extra desktops-->
+
+<div class="row"> 
+    <div class="col-sm-4 bg-primary text-white">.col-sm-4</div>
+    <div class="col-sm-8 bg-dark text-white">.col-sm-8</div>
+</div>
+
+<!--bootstrap 5 default settings 
+bootstrap 5 uses a default font-size of 1rem (16px by default), and its line height is 1.5 
+in addition , all <p> elements have margin-top:0  and margin-bottom: 1rem(16px by default) 
+
+<h1> to <h6> 
+bolder font weight and a responsice font-size
+   -->
+
+<div class="container mt-3" > 
+    <h1> h1 bootstrap heading</h1>
+    <h2> h2 bootstrap heading </h2>
+    <h3> h3 bootstrap heading </h3> 
+    <h4> h4 bootstrap heading</h4>
+    <h5> h5 bootstrap heading</h5>
+    <h6> h6 bootstrap heading</h6>
+</div>
+
+<br>
+<br>
+<br>
+
+<!-- you can also use .h1 to .h6 classes on other elements to make them behave as headings you want -->
+<p class="h1"> h1 bootstrap headings</p>
+<p class="h2"> h2 bootstrap headings</p>
+<p class="h3"> h3 bootstrap headings</p>
+<p class="h4"> h4 bootstrap headings</p>
+<p class="h5"> h5 bootstrap headings</p>
+<p class="h6"> h6 bootstrap headings</p>
+
+<!-- display headings 
+display headings are used to stand out more than normal headings ( larger font-size and lighter font-weight) and there are size classses to choose from 
+ -->
+
+<div class="container my-3 mt-3"> 
+    <h1 class="display-1">display1</h1>
+    <h1 class="display-2">display2</h2>
+    <h1 class="display-3">display3</h3>
+    <h1 class="display-4">display4</h4>
+    <h1 class="display-5">display5</h5>
+    <h1 class="display-6">display6</h6>
+</div>
+
+<!-- <small> 
+    the html small element is used to create a smaller 
+secondary text in any heading -->
+
+<div class="container mt-3"> 
+    <h1> h1 heading <small> secondary text </small></h1>
+    <h2> h2 heading <small> secondary text </small></h2> 
+    <h3> h3 heading <small> secondary text</small></h3>
+    <h4> h4 heading <small> secondary text</small></h4>
+    <h5> h5 heading <small> secondary text</small></h5>
+    <h6> h6 heading <small> secondary text</small></h6>
+
+</div>
+
+<!-- <mark> bootstrap 5 will style <mark> and .mark with a yellow background 
+    color and some padding -->
+
+<div class="container mt-3"> 
+    <p class="mark"> use the mark element .mark the complete text  </p>
+    <p> use the mark element <mark> to highlight the full text or selected text</mark></p>
+</div>
+
+<!-- <abbr> element with a dotted border bottom and a cursor will question mark on hover of the mouse -->
+
+<div class="container mt-3"> 
+    <p> the <abbr title="world health organization">who</abbr> was found in 1948</p>
+</div>
+
+<!-- the blockquote element is used to present content from another source -->
+<div class="container mt-3"> 
+    <blockquote class="blockquote"> 
+        <p> this is the content from the website</p>
+        <footer class="blockquote-footer"> from wwf website</footer>
+    </blockquote>   
+</div>
+
+<!-- description lists  the dl element indicates a description list-->
+<!-- dt - description title dd- description detail dl - description list -->
+
+<div class="container mt-3"> 
+    <d1> 
+        <dt> coffee</dt>
+        <dd> - black hot drink</dd>
+        <dt> milk </dt> 
+        <dd> - white cold drink </dd> 
+    </d1>
+</div>
+
+<!-- code snippets inline snippets of code should be embedded in the code element-->
+
+<div class="container mt-3"> 
+    <p> the following html elements <code>span</code>,<code> section</code> and <code> div </code> defines a section in a document</code></p>
+    </div>
+
+<!--kbd - keyboard inputs to indicate input that is typically entered via the keyboard , use the kbd element  -->
+
+<div class="container mt-3"> 
+    <p> use <kbd> ctrl+p </kbd> to open the print dialog box</p>
+</div>
+
+<!-- pre - multiple code lines , for multiple code lines of fixed width and which preserves spaces and line breaks use pre element -->
+<div class="container mt-3"> 
+    <pre> 
+        text in a pre element is displayed in a fixed width font and it preserves both      spaces and line breaks. 
+    </pre>
+
+<!-- contextual colors 
+use the contextual classes to provide "meaning through colors" -->
+
+<div class="container mt-3"> 
+    <p class="text-muted"> this text is muted</p> 
+    <p class="text-primary"> this text is important</p> 
+    <p class="text-success"> this text indicates success</p>
+    <p class="text-info"> this text represents some information</p>
+    <p class="text-danger"> this texts represents danger</p>
+    <p class="text-warning"> this text represents some warning</p>
+    <p class="text-secondary"> this is secondary text</p>
+    <p class="text-dark"> this text is dark grey </p>
+    <p class="text-body"> defuault body color</p>
+    <p class="text-light"> this text is light grey on white background</p>
+    <p class="text-white"> this text is white ( on white background ). </p>
+    <!-- opacity text colors 
+    add 50 percent opacity for black or white text with the .text-black-50 or .text-white-50 classes :  -->
+    <p class="text-black-50"> black text with 50 percent opacity on white background</p>
+    <p class="text-white-50"> white text with 50 percent opacity on black background</p>
+
+    <!-- contextual backgrounds use the contextual background classes to provide meaning through colors -->
+    <div class="bg-primary p-3">primary</div>
+    <div class="bg-success p-3">success</div>
+    <div class="bg-info p-3">information</div>
+    <div class="bg-warning p-3">warning</div>
+    <div class="bg-danger p-3">danger</div>
+    <div class="bg-secondary p-3">secondary</div>
+    <div class="bg-dark p-3">dark</div>
+    <div class="bg-light p-3">light</div>
+</div>
+
+<!-- background color with contrasting text color -->
+
+<div class="container mt-3">
+  <h2>Background Color with Contrasting Text Color</h2>
+  <p class="text-bg-primary">This text is important.</p>
+  <p class="text-bg-success">This text indicates success.</p>
+  <p class="text-bg-info">This text represents some information.</p>
+  <p class="text-bg-warning">This text represents a warning.</p>
+  <p class="text-bg-danger">This text represents danger.</p>
+  <p class="text-bg-secondary">Secondary background color.</p>
+  <p class="text-bg-dark">Dark grey background color.</p>
+  <p class="text-bg-light">Light grey background color.</p>
+</div>
+
+<!-- basic table 
+.table class adds basic styling ( light padding and horizontal dividers) to a table -->
+<div class="container mt-3"> 
+    <table class="table"> 
+        <thead> 
+            <tr> 
+                <th> first name</th>
+                <th> lastname </th>
+                <th> email</th>
+            </tr>
+            
+        </thead>
+        <tbody> 
+            <tr> 
+                <td>john</td>
+                <td> doe</td>
+                <td> john@google.com</td>
+            </tr> 
+            <tr> 
+                <td>mary </td>
+                <td>moe</td> 
+                <td>mary@google.com</td> 
+            </tr>
+            <tr> 
+                <td>july</td>
+                <td>dooley</td>
+                <td>july@google.com</td>
+            </tr>
+            </tbody>
+    </table>
+</div>
+<!-- this table contains striped rows -->
+<div class="container mt-3"> 
+    <table class="table table-striped"> 
+        <thead> 
+            <tr> 
+                <th>firstname</th>
+                <th>lastname</th>
+                <th>email</th>
+                </tr>
+                </thead>
+        <tbody> 
+            <tr> 
+                <td>john</td>
+                <td>doe</td>
+                <td>john@google.com</td>
+            </tr>
+            <tr>
+                <td>mary</td>
+                <td>moe</td>
+                <td>mary@google.com</td>
+            </tr>
+            <tr>
+                <td>july</td>
+                <td>dooley</td>
+                <td>july@google.com</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- the .table-bordered class adds borders on all sides of the table and the cells -->
+<div class="container mt-3">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>firstname</th>
+                <th>lastname</th>
+                <th>email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>john</td>
+                <td>doe</td>
+                <td>john@google.com</td>
+            </tr>
+            <tr>
+                <td>mary</td>
+                <td>moe</td>
+                <td>mary@google.com</td>
+            </tr>
+            <tr>
+                <td>july</td>
+                <td>dooley</td>
+                <td>july@google.com</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- hover rows 
+the .table-hover class enables a hover state (grey background on mouse over) on table rows -->
+
+<div class="container mt-3">          
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>Mary</td>
+          <td>Moe</td>
+          <td>mary@example.com</td>
+        </tr>
+        <tr>
+          <td>July</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+<!-- black/dark table the .table-dark class adds a black background to the table -->
+<div class="container mt-3"> 
+    <table class="table table-dark">
+        <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody> 
+    </table>    
+</div>
+
+<!-- dark striped table 
+.table-dark and .table-striped to create a dark striped table  -->
+<div class="container mt-3">
+    <table class="table table-dark table-striped"> 
+        <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+    </table>
+</div>
+
+<!-- hoverable dark table 
+.table-hover class adds a hover effect on table rows -->
+
+<div class="container mt-3">
+    <table class="table table-dark table-hover">
+        <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody> 
+    </table>
+</div>
+<!-- borderless table 
+.table-borderless class removes borders from the table -->
+<div class="container mt-3">
+    <table class="table table-borderless">
+        <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody> 
+    </table>
+</div>
+
+<!-- contextual classes 
+it can be used to color the table , table rows or table cells . the classes that can be used are : .table-primary , .table-success , .table-info , .table-warning , .table-danger , .table-active
+.table-secondary , .table-light and .table-dark -->
+<div class="container mt-3"> 
+    <table class="table"> 
+        <thead>
+            <tr>
+                <th>firstname</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>default</td>
+            </tr>
+            <tr class="table-primary">
+                <td>primary</td>
+            </tr>
+            <tr class="table-success">
+                <td>success</td> 
+            </tr>
+            <tr class="table-danger">
+                <td>bg-danger</td>
+            </tr>
+            <tr class="table-info">
+                <td>information</td>
+            </tr>
+            <tr class="table-warning">
+                <td>warning</td>
+            </tr>
+            <tr class="table-active">
+                <td>table-active</td>
+            </tr>
+            <tr class="table-secondary">
+                <td>table-secondary </td>
+            </tr>
+            <tr class="table-light">
+                <td>table-light </td>
+            </tr>
+            <tr class="table-dark">
+                <td>dark table </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- table head colours use of contextual classes to only add a background color to the table header -->
+<div class="container mt-3">
+    <table class="table">
+        <thead class="table-dark">
+            <tr>
+                <th>firstname</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>john</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- small table 
+the .table-sm class makes the table smaller by 
+cutting cell padding in half -->
+
+<div class="container mt-3">
+    <table class="table table-bordered table-sm">
+        <thead>
+            <tr>
+                <th>firstname</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>john</td>
+            </tr>
+            <tr>
+                <td>aashray</td>
+            </tr>
+            <tr>
+                <td>lalit</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- responsive table 
+the .table-responsive-sm class creates a responsive table which will scroll horizontally on screens that are less than 576px wide -->
+<div class="container mt-3">
+    <div class="table-responsive-sm">
+        <table table="table table-bordered">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>firstname</th>
+                    <th>lastname</th>
+                    <th>age</th>
+                    <th>city</th>
+                    <th>country</th>
+                    <th>sex</th>
+                    <th>example</th>
+                    <th>example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>anna</td>
+                    <td>pitt</td>
+                    <td>35</td>
+                    <td>new york</td>
+                    <td>usa</td>
+                    <td>female</td>
+                    <td>yes</td>
+                    <td>yes</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- rounded corners 
+the .rounded class adds rounderd corners to an image -->
+
+<div class="container mt-3">
+    <img src="Batman-Logo.jpg" alt="batman logo" class="rounded" width="304" height="236">
+</div>
+
+<!-- circle 
+the .rounded-circle class shapes the images to a circle -->
+<div class="container mt-3">
+    <img src="Batman-Logo.jpg" alt="batman logo" class="rounded-circle" width="304" height="236">
+</div>
+
+<!-- thumbnail
+the .img-thumbnail class shapes the image to a thumbnail (bordered) -->
+
+<div class="container mt-3"> 
+    <img src="Batman-Logo.jpg" alt="batman logo" cla="img-thumbnail" width="500" height="400">
+</div>
+
+<!-- aligning images 
+use the float classes to float the image to the left or to the right -->
+<div class="container mt-3">
+    <img src="Batman-Logo.jpg" alt="batman logo" class="float-start" width="304" height="236">
+    <img src="Batman-Logo.jpg" alt="batman logo" class="float-end" width="304" height="236">
+</div>
+
+<!-- centered image 
+center an image by adding the utility classes .mx-auto (margin:auto) and .d-block(display:block) to the image -->
+<div class="container mt-3">
+    <img src="Batman-Logo.jpg" alt="batman logo " class="mx-auto d-block" width="304" height="236">
+</div>
+
+<!-- responsive images 
+images come in all sizes acc to the screens 
+.img-fluid to the image tag -->
+<div class="container mt-3">
+    <img src="Batman-Logo.jpg" alt="batman logo" class="img-fluid" width="1100" height="2300">
+</div>
+
+<div class="container mt-3">
+    <div class="mt-4 p-5 bg-primary text-white rounded">
+        <h1>Jumbotron example</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolorum a perferendis veritatis ipsa eos voluptatum, consequatur doloremque dolorem vero libero ipsam quidem officia id animi minus ipsum incidunt quod.</p>
+    </div>
+</div>
+
+<!-- alerts 
+alerts are created with the .alert class , followed by a contextual color classes -->
+<div class="container mt-3">
+    <div class="alert alert-success">
+        <strong> success</strong>
+    </div>
+    <div class="alert alert-info">
+        <strong> information</strong>
+    </div>
+    <div class="alert alert-warning">
+        <strong> warning</strong>
+    </div>
+    <div class="alert alert-danger">
+        <strong> bg-danger</strong>
+    </div>
+    <div class="alert alert-primary">
+        <strong> primary</strong>
+    </div>
+    <div class="alert alert-secondary">
+        <strong> secondary</strong>
+    </div>
+    <div class="alert alert-dark">
+        <strong> Dark</strong>
+    </div>
+    <div class="alert alert-light">
+        <strong> light</strong>
+    </div>
+</div>
+
+<!-- alert links add the alert link class to any links inside the alert box to create "matching colored links" -->
+<div class="container mt-3">
+    <div class="alert alert-success">
+        you should <a href="https://www.google.com/search?q=404+error&rlz=1C1SQJL_enIN1019IN1019&oq=404+error&aqs=chrome..69i57j0i433i512l2j0i512j46i512j0i512l5.2433j0j7&sourceid=chrome&ie=UTF-8" class="alert-link">read this message</a>
+    </div>
+    <div class="alert alert-info"> 
+        you shoulde <a href="https://www.google.com/search?q=404+error&rlz=1C1SQJL_enIN1019IN1019&oq=404+error&aqs=chrome..69i57j0i433i512l2j0i512j46i512j0i512l5.2433j0j7&sourceid=chrome&ie=UTF-8" class="alert-link">read this message</a>
+    </div>
+    <div class="alert alert-info">
+        you should <a href="https://www.google.com/search?q=404+error&rlz=1C1SQJL_enIN1019IN1019&oq=404+error&aqs=chrome..69i57j0i433i512l2j0i512j46i512j0i512l5.2433j0j7&sourceid=chrome&ie=UTF-8" class="alert-link">read this messager</a>
+    </div>
+</div>
+
+<!-- closing alerts 
+the button with class="btn-close" and data-bs-dismiss="alert" is used to close the alert box -->
+
+<div class="container mt-3">
+    <div class="alert alert-success alert-dismissible">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>success</strong> this alert box could indicate a successfull or positive action
+    </div>
+</div>
+
+<!-- animated alerts 
+the .fade and .show classes adds a fading effect when closing the alert message -->
+
+<div class="container mt-3">
+    <div class="alert alert-success alert-dismissible fade show">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        this alert box could indicate a successful or positive action
+    </div>
+    <div class="alert alert-info alert-dismissible fade show">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        this alert box could indicate a information 
+    </div>
+    <div class="alert alert-danger alert-dismissible fade show">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        this alert box could indicate a danger
+    </div>
+</div>
+
+<!-- button styles 
+bs5 provides different styles of buttons 
+basic primary secondary success info warning danger dark light link-->
+
+<div class="container mt-3">
+    <button type="button" class="btn">basic</button>
+    <button type="button" class="btn btn-primary">primary</button>
+    <button type="button" class="btn btn-secondary">secondary</button>
+    <button type="button" class="btn btn-success">success</button>
+    <button type="button" class="btn btn-info">information</button>
+    <button type="button" class="btn btn-warning">warning</button>
+    <button type="button" class="btn btn-danger">danger</button>
+    <button type="button" class="btn btn-dark">dark</button>
+    <button type="button" class="btn btn-light">light</button>
+    <button type="button" class="btn btn-link">link</button>
+</div>
+
+<!-- the button classes can be used on <a> , <button> or <input> elements -->
+<!-- button elements  -->
+<div class="container mt-3">
+<a href="#" class="btn btn-success">link button</a>
+<br>
+<button type="button" class="btn btn-success">button</button>
+<br>
+<input type="button" class="btn btn-success" value="input button">
+<br>
+<input type="submit" class="btn btn-success" value="submit button">
+<br>
+</div>
+
+<!-- we put a # in the href attribute of the link since we do not have a page to link to we do not want to get a 404 message -->
+
+<!-- button outline 
+bs5 also provides eight outline/bordered buttons with "hover" effect -->
+<div class="container mt-3">
+    <br>
+    <button type="button" class="btn btn-outline-primary">primary</button>
+    <br>
+    <button type="button" class="btn btn-outline-secondary">secondary</button>
+    <br>
+    <button type="button" class="btn btn-outline-success">success</button>
+    <br>
+    <button type="button" class="btn btn-outline-info">information</button>
+    <br>
+    <button type="button" class="btn btn-outline-warning">warning</button>
+    <br>
+    <button type="button" class="btn btn-outline-danger">danger</button>
+    <br>
+    <button type="button" class="btn btn-outline-dark">Dark</button>
+    <br>
+    <button type="button" class="btn btn-outline-light">light</button>
+</div>
+
+<!-- button sizes
+use the .btn-lg class for large buttons or .btn-sm class for small buttons -->
+<div class="container mt-3">
+    <button type="button" class="btn btn-primary btn-lg">large button </button>
+    <button type="button" class="btn btn-primary">default</button>
+    <button type="button" class="btn btn-primary btn-sm">small button</button>
+</div>
+
+<!-- block level buttons 
+to create a block level button that spans the entire width of the parent element , use the .d-grip "helper" class on the parent element -->
+
+<div class="container mt-3">
+    <button type="button" class="btn btn-primary btn-block">full width button</button>
+</div>
+
+<!-- if you have many block-level buttons , you can control the space between them with the .gap-* class * - gap distance -->
+<div class="d-grid gap-3">
+    <button type="button" class="btn btn-primary btn-block">full width button</button>
+    <button type="button" class="btn btn-primary btn-block">full width button</button>
+    <button type="button" class="btn btn-primary btn-block">full width button</button>
+</div>
+
+<!-- active/disabled buttons 
+a button can be set to an active ( appear pressed) or a disables (unclickable) state -->
+<div class="container mt-3">
+    <button type="button" class="btn btn-primary">primary button</button>
+    <button type="button" class="btn btn-primary active">active primary button</button>
+    <button type="button" class="btn btn-primary" disabled>disables primary button</button>
+    <a href="#" class="btn btn-primary disabled">disabled link</a>
+</div>
+
+<!-- spinner buttons 
+you can add spinners to the button we will learn more about spinners in bs5 spinners tutorial -->
+<!-- span tag in html 
+it is an inline element used to group and apply styles to a specifice section of text or a part of a document -->
+<div class="container mt-3">
+    <button class="btn btn-primary">
+        <span class="spinner-border spinner-border-sm"></span>
+    </button>
+
+    <button class="btn btn-primary">
+        <span class="spinner-border spinner-border-sm"></span>
+        loading...
+    </button>
+
+    <button class="btn btn-primary" disabled>
+        <span class="spinner-border spinner-border-sm"></span>
+        loading....
+    </button>
+
+    <button class="btn btn-primary" disabled>
+        <span class="spinner-grow spinner-grow-sm"></span>
+        loading...
+    </button>
+</div>
+
+
+<!-- button groups 
+bs5 allows you to group a series of buttons together in a button group -->
+
+<div class="btn-group">
+    <button type="button" class="btn btn-primary">apple</button>
+    <button type="button" class="btn btn-primary">samsung</button>
+    <button type="button" class="btn btn-primary">sony</button>
+</div>
+
+<!-- button group sizes 
+add .btn-group-lg for large button groups
+add .btn-group-sm for small button groups -->
+<div class="container mt-3">
+<div class="btn-group btn-group-lg">
+    <button type="button" class="btn btn-primary">apple</button>
+    <button type="button" class="btn btn-primary">samsung</button>
+    <button type="button" class="btn btn-primary">sony</button>
+</div>
+<hr>
+<div class="btn-group ">
+    <button type="button" class="btn btn-primary">apple</button>
+    <button type="button" class="btn btn-primary">samsung</button>
+    <button type="button" class="btn btn-primary">sony</button>
+</div>
+<hr>
+<div class="btn-group btn-group-sm">
+    <button type="button" class="btn btn-primary">apple</button>
+    <button type="button" class="btn btn-primary">samsung</button>
+    <button type="button" class="btn btn-primary">sony</button>
+</div>
+</div>
+<hr>
+
+<!-- vertical button groups -->
+<!-- bs5 also supports vertical button groups -->
+
+
+<div class="container mt-3">
+    <div class="btn-group-vertical">
+        <button type="button" class="btn btn-primary">apple </button>
+        <button type="button" class="btn btn-primary">samsung</button>
+        <button type="button" class="btn btn-primary">sony</button>
+    </div>
+</div>
+<hr>
+
+<!-- button groups side by side 
+button groups are "inline by default , which makes them appear side by side when you have multiple groups " -->
+<div class="container mt-3">
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary">apple</button>
+        <button type="button" class="btn btn-primary">samsung</button>
+        <button type="button" class="btn btn-primary">sony</button>
+    </div>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary">bmw</button>
+        <button type="button" class="btn btn-primary">mercedes</button>
+        <button type="button" class="btn btn-primary">volvo</button>
+    </div>
+</div>
+<hr>
+<!-- nesting button groups and dropdown menus -->
+<div class="container mt-3">
+    <div class="btn-group">
+    <button type="button" class="btn btn-primary">apple</button>
+    <button type="button" class="btn btn-primary">samsung</button>
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">sony</button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item"> tablet</a></li>
+            <li><a href="#" class="dropdown-item">smartphone</a></li>
+        </ul>
+        </div>
+    </div>
+</div>
+<hr><hr>
+<!-- solve the error above -->
+
+<div class="container mt-3">
+    <!-- badges - badges are used to add additional infromation to any content -->
+        <h1>example heading <span class="badge bg-secondary">new</span></h1>
+        <h2>example heading <span class="badge bg-secondary">new</span></h2>
+        <h3>example heading <span class="badge bg-secondary">new</span></h3>
+        <h4>exampe heading <span class="badge bg-secondary">new</span></h4>
+        <h5>example heading <span class="badge bg-secondary">new</span></h5>
+        <h6>example heading <span ckass="badge bg-secondary">new</span></h6>
+
+    <!-- span tags are used to add badges span tag is an inline element used to group and apply styles to a specific section of text-->
+    <span class="badge bg-primary">primary</span>
+    <span class="badge bg-secondary">secondary</span>
+    <span class="badge bg-success">successs</span>
+    <span class="badge bg-danger">danger</span>
+    <span class="badge bg-warning">warning</span>
+    <span class="badge bg-info">information</span>
+    <span class="badge bg-light">light</span>
+    <span class="badge bg-dark">dark</span>
+
+    <!-- pill badges 
+    the .rounded-pill class to make the badges more round -->
+    <span class="badge rounded-pill bg-primary">primary</span>
+    <span class="badge rounded-pill bg-secondary">secondary</span>
+    <span class="badge rounded-pill bg-success"></span>
+    <span class="badge rounded-pill bg-danger">danger</span>
+    <span class="badge rounded-pill bg-warning">warning</span>
+    <span class="badge rounded-pill bg-info">information</span>
+    <span class="badge rounded-pill bg-light">light</span>
+    <span class="badge rounded-pill bg-dark">dark</span>
+
+    <hr>
+
+    <!-- badge inside an element/ button-->
+    
+    <button type="button" class="btn btn-primary">
+        messages <span class="badge bg-danger">4</span>
+    </button>
+    <br><br>
+    <button type="button" class="btn btn-danger">
+        notifications <span class="badge bg-dark">7</span>
+    </button>
+</div>
+
+
+<div class="container mt-3">
+    <!-- basic progress bad , to create a default progress bar , add a .progress class to a container element and add the progress bar class to its child element 
+    . use the css width property to set the width of the progress bar  -->
+    <div class="progress">
+        <div class="progress-bar" style="width: 70%"></div>
+    </div>
+    <hr>
+    <!-- progress bar height the height of the progress bar is 1rem ( usually 16px) by default
+    use the css height property to change it  -->
+    <div class="progress" style="height: 10px">
+        <div class="progress-bar" style="width: 40%"></div>
+    </div>
+    <br>
+    <div class="progress" style="height: 20px">
+        <div class="progress-bar" style="width: 50%"></div>
+    </div>
+    <br>
+    <div class="progress" style="height: 30px">
+        <div class="progress-bar" style="width: 60%"></div>
+    </div>
+    <hr>
+    <!-- progress bar labels
+    add text inside the progress bar to show the visible percentage -->
+    <div class="progress">
+        <div class="progress-bar" style="width: 70%">70%</div>
+    </div>
+    <hr>
+    <!-- colored progress bars 
+    by default , the progress bar is blue(primary) . use any of the contextual background classes to change its color -->
+    <!-- blue -->
+    <div class="progress">
+        <div class="progress-bar" style="width: 10%"></div>
+    </div>
+    <br>
+    <div class="progress">
+        <div class="progress-bar bg-success" style="width:20%"></div>
+    </div>
+    <br>
+    <!-- do the same for information , warning , danger , white , secondary , light , dark  -->
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped" style="width: 40%;"></div>
+    </div>
+    <!-- do the same for information , warning , danger , white , secondary , light , dark  -->
+    <hr>
+
+    <!-- animated progress bar 
+    add the .progress-bar-animated class to animate the progress bar -->
+    <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%"></div>
+    </div>
+    <br>
+    <br>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 40%;"></div>
+    </div>
+    <br>
+    <br>
+
+    <!-- multiple progress bars 
+    progress bars can also be stacked -->
+    <div class="progress">
+        <div class="progress-bar bg-success" style="width: 40%">free space</div>
+        <div class="progress-bar bg-warning" style="width: 10%">warning</div>
+        <div class="progress-bar bg-danger" style="width: 20%">danger</div>
+    </div>
+
+</div>
+
+<!-- spinners to create a spinner/loader use the .spinner-border class -->
+<div class="container mt-3">
+    <div class="spinner-border"></div>
+</div>
+
+<!-- colored spinners use any text color utilites to add a color to the spinner -->
+<div class="container mt-3">
+    <div class="spinner-border text-muted"></div>
+    <div class="spinner-border text-primary"></div>
+    <div class="spinner-border text-secondary"></div>
+    <div class="spinner-border text-info"></div>
+    <div class="spinner-border text-warning"></div>
+    <div class="spinner-border text-danger"></div>
+    <div class="spinner-border text-success"></div>
+    <div class="spinner-border text-dark"></div>
+    <div class="spinner-border text-light"></div>
+</div>
+
+<!-- growing spinners class if you want the spinner to grow instead of "spin" -->
+<div class="container mt-3">
+    <div class="spinner-grow"></div>
+</div>
+<!-- use the same for muted , primary seconday 
+info warning danger success dark light -->
+
+<!-- spinner size 
+use .spinner-border-sm or .spinner-gro-sm to create a smaller spinner -->
+<div class="container mt-3">
+    <div class="spinner-border spinner-border-sm"></div>
+    <div class="spinner-grow spinner-grow-sm"></div>
+</div>
+
+<!-- spinner buttons repeated from buttons section -->
+
+<!-- basic pagination 
+if you have a website with lots of pages , you may wish to add some sort of pagination to each page -->
+<!-- to create a basic pagination , add the .pagination class to an ul element. then add the .page-item to each li element and a .page-link class to each link inside it -->
+<div class="container mt-3">
+    <ul class="pagination">
+        <li class="page-item"><a href="#" class="page-link">previous</a></li>
+        <li class="page-item"><a href="#" class="page-link">1</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">next</a></li>
+    </ul>
+</div>
+<!-- .page-item - for the particular item
+.page-link - the link of the particular page
+.pagination - class inside the ul (unordered list tag) page-->
+
+<!-- pagination-active state - used to hightlight the current page
+add class .active to let the user know which page he/she is on:  -->
+<div class="container mt-3">
+    <ul class="pagination">
+        <li class="page-item"><a href="#" class="page-link">previous</a></li>
+        <li class="page-item"><a href="#" class="page-link">1</a></li>
+        <li class="page-item active">
+            <a href="#" class="page-link">2</a>
+        </li>
+        <li class="page-item">
+            <a href="#" class="page-link">3</a>
+        </li>
+        <li class="page-item">
+            <a href="#" class="page-link">next</a>
+        </li>
+    </ul>
+</div>
+
+<!-- disabled state 
+the .disabled class is used for un-clickable links -->
+<div class="container mt-3">
+    <ul class="pagination">
+        <li class="page-item disabled"><a href="#" class="page-link">previous</a></li>
+        <li class="page-item"><a href="#" class="page-link">1</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">next</a></li>
+    </ul>
+</div>
+
+<!-- pagination sizing 
+pagination blocks can also be sized to a larger or a smaller size 
+add class .pagination-lg for larger blocks or .pagination-sm for smaller blocks-->
+<div class="container mt-3">
+    <ul class="pagination pagination-sm">
+        <li class="page-item"><a href="#" class="page-link">previous</a></li>
+        <li class="page-item"><a href="#" class="page-link">1</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">next</a></li>
+    </ul>
+</div>
+
+<div class="container mt-3">
+    <ul class="pagination pagination-lg">
+        <li class="page-item"><a href="#" class="page-link">previous</a></li>
+        <li class="page-item"><a href="#" class="page-link">1</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">next</a></li>
+    </ul>
+</div>
+
+<!-- pagination alignment 
+use utility classes to change the alignment of the pagination -->
+<!-- default ( left - aligned) -->
+<div class="container mt-3">
+    <ul class="pagination">
+        <li class="page-item"><a href="#" class="page-link">previous</a></li>
+        <li class="page-item"><a href="#" class="page-link">1</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">next</a></li>
+    </ul>
+    <!-- center-aligned -->
+    <ul class="pagination justify-content-center">
+        <li class="page-item"><a href="#" class="page-link">previous</a></li>
+        <li class="page-item"><a href="#" class="page-link">1</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">next</a></li>
+    </ul>
+    <!-- right aligned -->
+    <ul class="pagination justify-content-end">
+        <li class="page-item"><a href="#" class="page-link">previous</a></li>
+        <li class="page-item"><a href="#" class="page-link">1</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">next</a></li>
+    </ul>
+</div>
+
+<!-- breadcrumbs 
+another form of pagination is breadcrumbs 
+the .breadcrumb and .breadcrumb-item classes indicates the current pages location within a navigational hierarchy -->
+<div class="container mt-3">
+    <ul class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">photos</a></li>
+        <li class="breadcrumb-item"><a href="#">summer 2017</a></li>
+        <li class="breadcrumb-item"><a href="#">italy</a></li>
+        <li class="breadcrumb-item active"><a href="#">rome</a></li>
+    </ul>
+</div>
+
+<!-- basic list groups 
+the most basic list group is an unordered list with list items  -->
+<!-- basic list group use an ul element with .list-group and li elements with class .list-group-item -->
+<div class="container mt-3">
+    <ul class="list-group">
+        <li class="list-group-item">first item</li>
+        <li class="list-group-item">second item</li>
+        <li class="list-group-item">third item</li>
+    </ul>
+</div>
+
+<!-- active state 
+use the .active class to highlight the current item -->
+<div>
+    <ul class="list-group">
+    <li class="list-group-item active">active item</li>
+    <li class="list-group-item">second item</li>
+    <li class="list-group-item">third item</li>
+</ul>
+</div>
+
+<!-- list groups with linked items 
+to create a list group with linked items , use div instead of ul and a instead of li . optionally , add the .list-group-item-action
+class if you want a grey background colour to hover  -->
+<div class="container mt-3">
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action">first item</a>
+        <a href="#" class="list-group-item list-group-item-action">second item</a>
+        <a href="#" class="list-group-item list-group-item-action">third item</a>
+
+    </div>
+</div>
+
+<!-- disabled item 
+the .disabled class adds a lighter text color to the disabled item. and when used on links , it will remove the hover effect -->
+<div class="container mt-3">
+    <div class="list-group">
+        <a href="#" class="list-group-item disabled">disabled item</a>
+        <a href="#" class="list-group-item disabled">disabled item</a>
+        <a href="#" class="list-group-item ">third item </a>
+    </div>
+</div>
+
+<!-- flush/remove borders
+use the .list-group-flush class to remove some borders and rounded corners -->
+
+<div class="container mt-3">
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">first item</li>
+        <li class="list-group-item">second item</li>
+        <li class="list-group-item">third item</li>
+        <li class="list-group-item">fourth item</li>
+    </ul>
+</div>
+
+<!-- numbered list groups 
+.list-group-numbered class to create a list items with numbers in front of them -->
+<div class="container mt-3">
+    <ol class="list-group list-group-numbered">
+        <li class="list-group-item">first item</li>
+        <li class="list-group-item">second item</li>
+        <li class="list-group-item">third item </li>
+    </ol>
+</div>
+
+<!-- horizontal list groups
+.list-group-horizontal displays horizontally instead of vertically -->
+<div class="container mt-3">
+    <ul class="list-group list-group-horizontal">
+        <li class="list-group-item">first item</li>
+        <li class="list-group-item">second item</li>
+        <li class="list-group-item">third items</li>
+        <li class="list-group-item">fourth item </li>
+    </ul>
+</div>
+
+<!-- contextual classes 
+the classes for coloring list-items are as follows -->
+<div class="container mt-3">
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-success">success item</li>
+        <li class="list-group-item list-group-item-secondary">secondary item </li>
+        <!-- do the same for info,warning,danger,primary,dark,light -->
+    </ul>
+</div>
+
+<!-- link items with contextual classes  -->
+<div class="container mt-3">
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action">action item </a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">secondary item</a>
+        <!-- do the same for info,warning,danger,primary,dark,light -->
+    </div>
+</div>
+
+<!-- list groups with badges 
+ -->
+<div class="container mt-3">
+    <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            inbox
+            <span class="bagdge bg-primary rounded-pill">12</span>
+        </li>
+    </ul>
+</div>
+
+<!-- basic card 
+a basic card class is created with the .card class , and content inside the card has a .card-body class :  -->
+<div class="container mt-3">
+    <div class="card">
+        <div class="card-body">basic card </div>
+    </div>
+</div>
+
+<!-- headed and footer 
+the .card-header class adds a heading to the card and the .card-footer class adds a footer to the card  -->
+<div class="container mt-3">
+    <div class="card">
+        <div class="card-header">header</div>
+        <div class="card-body">card body (content) </div>
+        <div class="card-footer">footer</div>
+    </div>
+</div>
+
+<!-- contextual cards 
+use of contextual classes  -->
+<div class="container mt-3">
+    <div class="card bg-primary text-white">
+        <div class="card-body">primary card </div>
+    </div>
+    <div class="card bg-success text-white">
+        <div class="card-body">success card </div>
+    </div>
+    <!-- do the same with info , warning , danger , secondary , dark and light -->
+</div>
+
+<!-- titles , text and links .cart-title to add a card title .card-test add text in the card body , .card-link adds a blue color to any link and a hover effect-->
+<div class="container mt-3">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">card title</h4>
+            <p class="card-text">some example text</p>
+            <a href="#" class="card-link">card link</a>
+            <a href="#" class="card-link">another link </a>
+        </div>
+    </div>
+</div>
+
+<!-- card images 
+add .card-img-top or .card-img-bottom to place the image at the top or at the bottom inside the card 
+image added outside the card body  -->
+<div class="container mt-3">
+    <div class="card" style="width:400px">
+        <img src="#" alt="card image" class="card-img-top">
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">john doe</h4>
+        <p class="card-text">some example text</p>
+        <a href="#" class="btn btn-primary">see profile</a>
+    </div>
+</div>
+<!-- image at the bottom  -->
+<div class="container mt-3">
+    <div class="card" style="width: 400px;">
+        <div class="card-body">
+            <h4 class="card-title">jane doe</h4>
+            <p class="card-text">some example text some exmaple text</p>
+            <a href="#" class="btn btn-primary">see profile</a>
+        </div>
+        <img src="#" alt="card image" class="card-img-bottom">
+    </div>
+</div>
+
+<!-- card image overlays
+turn an image into a card background and use .card-img-overlay to add text on top of the image -->
+<div class="container mt-3">
+    <div class="card" style="width: 500px;">
+        <img src="#" alt="card image" class="card-img-top">
+        <div class="card-img-overlay">
+            <h4 class="card-title">john doe</h4>
+            <p class="card-text">some example text</p>
+            <a href="#" class="btn btn-primary">see profile</a>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- basic dropdown a dropdown menu is a toggleable menu that allows the user to choose one value from a predefined list -->
+<div class="container mt-3">
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            Dropdown button 
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">link 1</a></li>
+            <li><a href="#" class="dropdown-item">link 2</a></li>
+            <li><a href="#" class="dropdown-item">link 3</a></li>
+        </ul>
+    </div>
+</div>
+<br>
+<br>
+
+
+<!-- dropdown divider the .dropdown-divider class is used to separate links inside the dropdown menu with a thin horizontal border -->
+<div class="container mt-3">
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            dropdown button 
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">link 1 </a></li>
+            <li><a href="#" class="dropdown-item">link 2</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a href="#" class="dropdown-item">another link </a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- dropdown header the .dropdown-header class is used to add headers inside the dropdown menu -->
+<div class="container mt-3">
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            dropdown button 
+        </button>
+        <ul class="dropdown-menu">
+            <!-- <li><a href="#" class="dropdown-item">link 1</a></li> -->
+            <li><h5 class="dropdown-header">dropdown header 1</h5></li>
+            <li><a href="#" class="dropdown-item">link 1</a></li>
+            <li><a href="#" class="dropdown-item">link 2</a></li>
+            <li><a href="#" class="dropdown-item">link 3</a></li>
+            <li><h5 class="dropdown-header">dropdown header 2</h5></li>
+            <li><a href="#" class="dropdown-item">link 4</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- disable and active items -->
+<div class="container mt-3">
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            dropdown button 
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">normal</a></li>
+            <li><a href="#" class="dropdown-item active">active</a></li>
+            <li><a href="#" class="dropdown-item disabled"></a>disabled</li>
+        </ul>
+    </div>
+</div>
+
+<!-- dropdown position 
+    dropright
+you can also created a "dropend" or "dropstart" menu , 
+by adding the .dropend or .dropstart class to the dropdown element -->
+<div class="container mt-3">
+    <div class="dropdown dropend">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            dropdown button
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">normal</a></li>
+            <li><a href="#" class="dropdown-item active">active</a></li>
+            <li><a href="#" class="dropdown-item disabled">disabled</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- dropstart  
+-->
+<div class="dropdown dropstart text-end">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+        dropstart 
+    </button>
+    <ul class="dropdown-menu">
+        <li><a href="#" class="dropdown-item">normal</a></li>
+        <li><a href="#" class="dropdown-item active">active</a></li>
+        <li><a href="#" class="dropdown-item disabled">disabled</a></li>
+    </ul>
+</div>
+
+<!-- dropdowns right align the dropdown menu -->
+<div class="container mt-3">
+    <div class="dropdown dropdown-menu-end" >
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            wide dropdown button to demonstrate this example 
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">link 1 </a></li>
+            <li><a href="#" class="dropdown-item">link 2</a></li>
+            <li><a href="#" class="dropdown-item">link 3</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- dropup 
+if you want the dropdown menu to expand upwards instead of downwards , change the div element with class="dropdown" to dropup -->
+<div class="container mt-3">
+    <div class="dropup">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            dropup button
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">link 1</a></li>
+            <li><a href="#" class="dropdown-item">link 2</a></li>
+            <li><a href="#" class="dropdown-item">link 3</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- dropdown text 
+the .dropdown-item-text class is used to add plain text to a dropdown item or used 
+on links for default link styling -->
+<div class="container mt-3">
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            dropdown text 
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item-text">text link</a></li>
+            <li><span class="dropdown-item-text">just text</span></li>
+        </ul>
+    </div>
+</div>
+
+<!-- grouped buttons with a dropdown 
+done in button element itself  -->
+<!-- vertical button group w/ dropdown
+class=btn-group-vertical to be used  -->
+
+<!-- simple collapsible
+click on the button to toggle between showing and hiding content  -->
+<div class="container mt-3">
+    <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">simple collapsible</button>
+    <div id="demo" class="collapse">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate beatae molestiae eaque quae! Est, sequi. Iure quisquam aut cumque, nihil natus provident. Cupiditate quas doloremque delectus aliquam porro ab unde.
+    </div>
+</div>
+
+<!-- for <a> element you can use href instead of data-bs-target attribute  -->
+<div class="container mt-3">
+    <a href="#demo" class="btn btn-primary" data-bs-toggle="collapse">
+        simple collapsible
+    </a>
+    <div id="demo" class="collapse">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit molestiae deserunt, corporis minus blanditiis minima esse architecto repellat quisquam officia in assumenda perferendis porro sequi cumque veritatis maxime obcaecati illo!
+    </div>
+</div>
+
+<!-- by default the collapsible content is hidden you can use 
+the show class to show the content by default -->
+<div class="container mt-3">
+    <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">simple collapsible</button>
+    <div id="demo" class="collapse show">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem eaque saepe nihil consectetur ullam corrupti placeat, magni quia qui blanditiis totam aliquid dolorum minima fugiat, unde facilis repellendus suscipit doloribus.
+    </div>
+</div>
+
+<!-- accordion the following example shows a simple accordion by extending the card component -->
+
+<div id="accordion">
+    <div class="card">
+        <div class="card-header">
+            <a href="#collapseone" class="btn btn-primary" data-bs-toggle="collapse">
+                collapsible group item 1
+            </a>
+        </div>
+        <div id="collapseone" class="collapse show" data-bs-parent="#accordion">
+            <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum atque, sint voluptatem, sapiente libero impedit non voluptates rem quia et repudiandae quo culpa laboriosam possimus commodi eligendi repellendus asperiores? Illum.
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <a href="#collapsetwo" class="btn btn-primary" data-bs-toggle="collapse">
+                collapsible group item 2
+            </a>
+        </div>
+        <div id="collapsetwo" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad beatae aperiam fuga nemo odit dolores sit nihil, molestias, qui error, dicta tempora similique necessitatibus doloremque quo architecto expedita dolorem facere.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- bootstrap nav menus
+if you want to create a simple horizontal menu , add the .nav 
+class to <ul> element , followed by .nav-item
+for each <li> and the .nav-link class  -->
+<div class="container mt-3">
+    <ul class="nav">
+        <li class="nav-item">
+            <a href="#" class="nav-link">link </a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 2</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link disabled">link 3</a>
+        </li>
+    </ul>
+</div>
+
+<!-- aligned navs .justify-content-center -->
+<div class="container mt-3">
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 1</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 2</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link disabled">link 3</a>
+        </li>
+    </ul>
+</div>
+
+<!-- aligned navs .justify-content-end -->
+<div class="container mt-3">
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 1</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 2</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 3</a>
+        </li>
+    </ul>
+</div>
+
+<!-- vertical nav 
+.flex-column class to create a vertical nav -->
+<div class="container mt-3">
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 1</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 2</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link disabled">link 3</a>
+        </li>
+    </ul>
+</div>
+
+<!-- tabs turn the nav menu into navigation tabs with the .nav-tabs class , add the 
+.active class to active/current link -->
+<div class="container mt-3">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a href="#" class="nav-link active">active</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 1</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link disabled">disabled</a>
+        </li>
+    </ul>
+</div>
+
+<!-- pills turn the nav menu into navigation pills 
+with the .nav-pills class .  -->
+<div class="container mt-3">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a href="#" class="nav-link active">active</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 1</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link disabled">disabled </a>
+        </li>
+    </ul>
+</div>
+
+<!-- justified tabs/pills 
+justify the tabs/pills with the .nav-justified class -->
+<div class="container mt-3">
+    <ul class="nav nav-pills nav-justified">
+        <li class="nav-item">
+            <a href="#" class="nav-link active">active</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 1</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link disabled">disabled </a>
+        </li>
+    </ul>
+</div>
+<!-- do the same for nav-tabs class -->
+
+<!-- pills with dropdown -->
+<div class="container mt-3">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a href="#" class="nav-link active">active</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">dropdown </a>
+            <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">link 1</a></li>
+                <li><a href="#" class="dropdown-item">link 2</a></li>
+                <li><a href="#" class="dropdown-item">link 3</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-item disabled">disabled </a>
+        </li>
+    </ul>
+</div>
+
+<!-- do the same for tabs  -->
+
+<!-- toggleable/dynamic tabs 
+to make the tags toggleable , add the data-toggle="tab" attribute 
+to each link . then add .tab-pane class with a unique id for every tab and wrap them inside a div element 
+with class .tab-content -->
+<div class="container mt-3">
+    <!-- nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a href="#home" class="nav-link active" data-bs-toggle="tab">home</a>
+        </li>
+        <li class="nav-item">
+            <a href="#menu1" class="nav-link" data-bs-toggle="tab">menu 1</a>
+        </li>
+    </ul>
+
+    <!-- tab panes -->
+    <div class="tab-content">
+        <div id="home" class="container tab-pane active ">
+            <h3>home</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ullam atque quo officiis maiores, temporibus cumque exercitationem impedit nisi, numquam similique totam excepturi asperiores eaque! Voluptates laboriosam consectetur dignissimos ipsa.</p>
+        </div>
+        <div id="menu1" class="container tab-pane fade">
+            <h3>menu 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere totam error illo eveniet velit culpa. Totam saepe rerum incidunt cumque doloremque, quas vero sunt odio reiciendis ut quod, delectus pariatur.</p>
+        </div>
+    </div>
+</div>
+
+<!-- do the same for pills  -->
+
+<!-- basic navbar 
+a standard navigation bar is created with the .navbar class , followed by a responsive collapsing class: .navbar-expand-xxl|xl|lg|md|sm 
+ -->
+
+<nav class="navbar navbar-expand-sm bg-light">
+    <div class="container-fluid">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link">link 1</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">link 2</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">link 3</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- vertical navbar example 
+a navigation bar is a navigation header that is placed at the top of the page -->
+<nav class="navbar bg-light">
+    <div class="container-fluid">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link">link 1</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">link 2</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">link 3</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-sm bg-light justify-content-center">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 1</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 2</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">link 3</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- grey with black text -->
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <div class="container-fluid">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link active">active</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link">link 2</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">disabled </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- bg-dark -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link active">active</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link">link 2</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">disabled </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- bg-primary -->
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <div class="container-fluid">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link active">active</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link">link 2</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">disabled </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+
+
+</body>
+</html>
